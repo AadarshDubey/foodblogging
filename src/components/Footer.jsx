@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className=" bg-gray-50 text-black py-10">
       <div className="flex flex-col items-start ml-20 mt-4 mb-6 md:mb-0">
-          <img src="/src/assets/foodtruck.svg" alt="FoodTruck Logo" className=" h-[125px] w-[161px] mt-12" />
+          <img src="/public/foodtruck.svg" alt="FoodTruck Logo" className=" h-[125px] w-[161px] mt-12" />
         </div>
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-start">
 
@@ -33,13 +33,13 @@ const Footer = () => {
           <h3 className="text-[18.84px] font-semibold text-blue mb-2 ">Social Links</h3>
           <div className="flex space-x-4 mt-2">
             <a href="#" aria-label="Instagram" className="hover:text-blue-700">
-              <img src="/src/assets/instagram.svg" alt="Instagram" className="h-6 w-6" />
+              <img src="/public/instagram.svg" alt="Instagram" className="h-6 w-6" />
             </a>
             <a href="#" aria-label="Twitter" className="hover:text-blue-700">
-              <img src="/src/assets/twitter.svg" alt="Twitter" className="h-6 w-6" />
+              <img src="/public/twitter.svg" alt="Twitter" className="h-6 w-6" />
             </a>
             <a href="#" aria-label="Facebook" className="hover:text-blue-700">
-              <img src="/src/assets/facebook.svg" alt="Facebook" className="mb-16 h-6 w-6" />
+              <img src="/public/facebook.svg" alt="Facebook" className="mb-16 h-6 w-6" />
             </a>
           </div>
           <p className="text-gray-400 text-[14.66px] ">© 2022 Food Truck Example</p>

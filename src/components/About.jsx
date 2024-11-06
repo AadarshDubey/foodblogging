@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-stretch justify-between">
           <div className="md:w-1/2 mb-6 md:mb-0 flex justify-center items-center">
             <img 
-              src="/src/assets/chinh.png" 
+              src="/public/chinh.png "  
               alt="About Us" 
               className="w-full max-w-[384px] mr-40 h-auto hidden md:block" 
             />

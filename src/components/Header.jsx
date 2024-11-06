@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="min-h-screen flex items-start justify-between bg-white relative p-6">
       <div className="flex-1 text-left space-y-6">
-        <img src="/src/assets/foodtruck.svg" alt="Food Truck" className=" max-lg:hidden mt-[33px] ml-12 w-[107px] h-[83px] mb-4" />
+        <img src="/public/foodtruck.svg" alt="Food Truck" className=" max-lg:hidden mt-[33px] ml-12 w-[107px] h-[83px] mb-4" />
         <div>
           <h1 className="text-[62px] font-bold text-blue mt-20 ml-12 leading-tight ">
             Discover the <br /><span className="text-red-600">Best</span> Food <br />
@@ -21,12 +21,12 @@ const Header = () => {
       </div>
       <div className="relative w-[752px] h-[839px] flex-shrink-0">
         <img 
-          src="/src/assets/pizza.png" 
+          src="/public/pizza.png" 
           alt="Pizza" 
           className="absolute -mt-10 -mr-10 top-0 right-0 w-[735px] h-[804px] rounded-bl-[198.9px]  max-sm:mr-96 max-sm:mt-5 max-sm:h-[600px] max-sm:w-[650px] "
         />
         <img 
-          src="/src/assets/redborder.png"
+          src="/public/redborder.png"
           alt="Red Border"
           className="  max-sm:mr-96 max-sm:mt-5 max-sm:h-[600px] max-sm:w-[650px] absolute -mt-7 -mr-7 top-0 right-0 w-[752px] h-[839px] opacity-100"
         />

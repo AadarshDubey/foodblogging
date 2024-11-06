@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 const LatestArticles = () => {
   const articles = [
-    { id: 1, title: "Grilled Tomatoes at Home", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/tomatoes.svg" },
-    { id: 2, title: "Snacks for Travel", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/peach.svg" },
-    { id: 3, title: "Post-workout Recipes", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/workout.svg" },
-    { id: 4, title: "How To Grill Corn", description: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/grillcorn.svg" },
-    { id: 5, title: "Crunchwrap Supreme", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/crunch.svg" },
-    { id: 6, title: "Broccoli Cheese Soup", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/src/assets/Recipe/brocc.svg" },
+    { id: 1, title: "Grilled Tomatoes at Home", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/tomatoes.svg" },
+    { id: 2, title: "Snacks for Travel", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/peach.svg" },
+    { id: 3, title: "Post-workout Recipes", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/workout.svg" },
+    { id: 4, title: "How To Grill Corn", description: "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/grillcorn.svg" },
+    { id: 5, title: "Crunchwrap Supreme", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/crunch.svg" },
+    { id: 6, title: "Broccoli Cheese Soup", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...", image: "/public/Recipe/brocc.svg" },
   ];
 
   const [currentPage, setCurrentPage] = useState(0);
@@ -59,7 +59,7 @@ const LatestArticles = () => {
           }`}
           disabled={currentPage === 0}
         >
-          <img src="/src/assets/left.svg" alt="left" className="h-4 w-4" />
+          <img src="/public/left.svg" alt="left" className="h-4 w-4" />
         </button>
 
         <span className="text-gray-700">
@@ -73,7 +73,7 @@ const LatestArticles = () => {
           }`}
           disabled={(currentPage + 1) * articlesPerPage >= articles.length}
         >
-          <img src="/src/assets/right.svg" alt="right" className="h-4 w-4" />
+          <img src="/public/right.svg" alt="right" className="h-4 w-4" />
         </button>
       </div>
     </div>
